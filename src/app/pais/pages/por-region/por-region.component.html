@@ -1,4 +1,5 @@
-<h3>Buscar por regiones <small>{{regionActiva|titlecase}}</small></h3>
+<div class="animate__animated animate__fadeIn animate__faster">
+    <h3>Buscar por regiones <small>{{regionActiva|titlecase}}</small></h3>
 <hr>
 <h5>Seleccione la region</h5>
 <div class="row">
@@ -14,6 +15,8 @@
         (click)="activarRegion(region)"> {{region|titlecase}} </button>
     </div>
 </div>
+</div>
+
 
 <div class="row" *ngIf="paises.length > 0">
     <div class="col">
